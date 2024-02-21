@@ -1,0 +1,50 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+h1{
+    font-weight: bolder;
+    color: orange;
+}
+
+#count{
+    font-size: 100px;
+    font-weight: bol;
+}
+
+.bt{
+
+    border: 2px solid white;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.bt:hover{
+    box-shadow: 5px 5px 50px white, -5px -5px 50px white;
+    text-shadow: 5px 5px 50px white;
+    transition:1s;
+}
+
+.cont{
+    border-radius: 10px;
+}
+
+.img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.46);
+}
+
+
